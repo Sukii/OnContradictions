@@ -141,8 +141,9 @@ One might argue that the point at infinity is just one point and how come this c
 
 Similarly, if we consider multi-exponential trees, we obtain,
 
+&aleph;0 = 2^{&aleph;0} = 2^{2^{&aleph;0}} = ...
 
-
+&aleph;0
 At a philosophical level, we can say that in the ideal Platonic world, there is only one infinity (one truth and one god).
 Paul Cohen [Chow, 2007] proved using the concept of forcing that a consistent set of axioms of set theory cannot prove or disprove continuum
 hypothesis. Abstract ideas do perform an useful function of unifying various disparate concrete objects but as observed by Arnold [1998], they mostly do not yield any thing concrete by themselves.
