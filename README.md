@@ -106,9 +106,7 @@ of natural numbers and the set (0,1). Thus proving the result. QED
 
 So finally we also have the result that we can construct an infinite hierarchies of infinities, i.e.,
 
-א , ^
-א2
-
+&aleph;, 2^&aleph;, 2^(2^&aleph;), ...
 
 ### Paradox of countability and fissures in continuum hypothesis
 
@@ -141,7 +139,7 @@ so it will take much more steps to converge to the real numbers than the tree al
 
 One might argue that the point at infinity is just one point and how come this creates a one-to-one mapping from the set of natural numbers to the continuum. The point at infinity is a single converging point in time, but in the space of counting zero-dimensional points it maps to 2 א 0 , the continuum (that’s another reason why we counted them as a binary tree expansions, more as an expansion of sequence of finite power sets). So as a consequence we get the important result,
 
-א 0 = 2 א 0
+
 
 Similarly, if we consider multi-exponential trees, we obtain,
 
@@ -213,22 +211,21 @@ Cantor set can also be symbolically written as a geometric set following the rel
 
 Or to put in simply, when we scale the Cantor set by 3, we get two Cantor sets, i.e.,
 
-3 D = 2
+3^D = 2
 
-where 0 < D < 1 is the scaling dimension of the Cantor set and from this relation we obtain D = log 2/ log 3 ≈ 0.63.
+where 0 < D < 1 is the scaling dimension of the Cantor set and from this relation we obtain D = log2/log3 ≈ 0.63.
 For example, we can see that natural numbers are 0-dimensional points in Euclidean space that don’t scale, while [0,1] scales linearly, a two-
-dimensional square scales quadratically and, a cube grows to the cubic power etc.
-We can also prove easily that the Cantor set is uncountable. Consider the ternary representation of a real number in (0,1), i.e.,
+dimensional square scales quadratically and, a cube grows to the cubic power etc. We can also prove easily that the Cantor set is uncountable. Consider the ternary representation of a real number in (0,1), i.e.,
 
 x = 0.0102201 ···
 
-The points in the Cantor sets will not have digit “1” in them, i.e., say,
+The points in the Cantor sets will not have digit "1" in them, i.e., say,
 
 x = 0.002022002 ···
 
-This may seem erroneous as 0.1 ∈ C , but it should be noted that in the ternary representation, 0.1 = 0.0222 ..., so there is an equivalent ternary representation without the digit “1” and which is what we will pursue as the ternary representation in this article. Similar to the proof involving binary representation of real numbers we can show that the Cantor set, C , is uncountable. Using a similar procedure we can also show that,
+This may seem erroneous as 0.1 ∈ C , but it should be noted that in the ternary representation, 0.1 = 0.0222 ..., so there is an equivalent ternary representation without the digit "1" and which is what we will pursue as the ternary representation in this article. Similar to the proof involving binary representation of real numbers we can show that the Cantor set, C , is uncountable. Using a similar procedure we can also show that,
 
-#(C) = 2^א
+#(C) = 2^&aleph;
 
 One then wonders how this is a counter example to the continuum hypothesis? The answer lies not in counting bananas but weighing bananas, as there is more geometric information in the Cantor set that is lost in counting rather than weighing them. It is this extra geometric information that is captured by the scaling dimension, which distinguishes it as a fractal object existing between 0-dimension and 1-dimension.
 
