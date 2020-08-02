@@ -51,5 +51,8 @@ A = {dog, cat, horse, car, bus, train, aeroplane}
 #(A) = 7
 
 Now consider the set of all subsets of A, symbolically written as the set,
-2 A and in fact this notation for the power-set is justified by the relation,
+2^A and in fact this notation for the power-set is justified by the relation,
+
+#(2^A) = 2^#(A)
+
 
