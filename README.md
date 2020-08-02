@@ -114,8 +114,11 @@ establishes a contradiction between countability and uncountability. First, let 
 Now let us count the binary numbers from top-down-left-right in Figure 1:
 
 0.0, 0.1,
+
 0.00, 0.01, 0.10, 0.11,
+
 0.000, 0.001, 0.010, 0.011, 0.100, 0.101, 0.110, 0.111,
+
 .........
 
 By using Cantor’s arguments of diagonalization we get that the number, 
