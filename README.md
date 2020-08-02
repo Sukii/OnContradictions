@@ -55,4 +55,56 @@ Now consider the set of all subsets of A, symbolically written as the set,
 
 #(2^A) = 2^#(A)
 
+We would like point out that this process can continued indefinitely, i.e., we can construct power-set of a power-set or, in plain language, that there
+can be a set of all subsets of the set of all subsets of a set etc., i.e.,
 
+A, 2^A , 2^(2^A) , ...
+
+The cardinality of natural numbers is denoted by aleph,
+
+א = #(N)
+
+Now consider the cardinality of the set of all real numbers between 0 and 1, i.e.,
+
+c = #([0, 1])
+
+Just as the number of drops of water in a glass of water cannot be counted like a bunch of bananas, we intuitively know that the set of real numbers
+in [0,1] cannot be counted like natural numbers. We will prove this now. Let us represent all real numbers between 0 and 1 in terms of their binary representation in some counting order,
+
+a1 = 0.a11 a12 a13 a14 a15 = 0.01010 · · ·
+
+a2 = 0.a21 a22 a23 a24 a25 = 0.110010 · · ·
+
+a3 = 0.a31 a32 a33 a34 a35 = 0.101011 · · ·
+
+···
+
+By a diagonalization process discovered by Cantor we can construct a real number,
+
+b = 0.100 · · ·
+
+where b is obtained by reversing the 0s and 1s of i-th digit of a i , such that,
+
+b = 0.b11 b22 b33 b44 b55 ... ∉ {a1,a2,a3,...}
+
+leading to a contradiction. We would like to point out that this proof is quite similar to the proof used in Zeno’s paradox showing that the Hare
+never catches the Tortoise, so like Zeno’s paradox we will prove also its opposite in the next section. For now, in this section, however, we will
+assume that this proof is correct and proceed further to qualitative results, i.e.,
+
+c = 2^א
+
+In order prove this consider the binary representation of real number in (0,1),
+
+x = {0.010011001 · · ·}
+
+We now obtain the corresponding subset of natural numbers by considering all the index positions of “1” in the above binary representation, i.e.,
+
+S = {2, 5, 6, 9, . . .}
+
+Similarly for every subset of natural numbers we can construct a real number in (0,1). This implies a bijective mapping between the power-set
+of natural numbers and the set (0,1). Thus proving the result. QED
+
+So finally we also have the result that we can construct an infinite hierarchies of infinities, i.e.,
+
+א , ^
+א2
