@@ -223,7 +223,7 @@ The points in the Cantor sets will not have digit "1" in them, i.e., say,
 
 x = 0.002022002 ···
 
-This may seem erroneous as 0.1 ∈ C , but it should be noted that in the ternary representation, 0.1 = 0.0222 ..., so there is an equivalent ternary representation without the digit "1" and which is what we will pursue as the ternary representation in this article. Similar to the proof involving binary representation of real numbers we can show that the Cantor set, C , is uncountable. Using a similar procedure we can also show that,
+This may seem erroneous as 0.1 ∈ C , but it should be noted that in the ternary representation, 0.1 = 0.0222..., so there is an equivalent ternary representation without the digit "1" and which is what we will pursue as the ternary representation in this article. Similar to the proof involving binary representation of real numbers we can show that the Cantor set, C , is uncountable. Using a similar procedure we can also show that,
 
 #(C) = 2^&aleph;
 
