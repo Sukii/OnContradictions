@@ -199,7 +199,7 @@ C_1 = [0,1/3] ∪ [2/3,1], C_2 = [0,1/9] ∪ [2/9,1/3] ∪ [2/3,7/9] ∪ [8/9,1]
 
 defining the Cantor set to be,
 
-C = &cap;_{k=1}^{&infty;} C_k
+C = &cap;_{k=1}^{∞} C_k
 
 n the above representation it seems as if the Cantor set can be represented as the disjoint union of countable sets. However, this is quite untrue, as
 the Cantor set is a totally disconnected nowhere dense set. So, it can only be written as the disjoint union of uncountable sets. This fallacy is
