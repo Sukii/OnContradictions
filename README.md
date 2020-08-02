@@ -248,11 +248,11 @@ H_&epsilon;(x,A) = H(x,A) &ast; exp(-|x|^2/&epsilon;^2)
 
 Now consider the support of the function,
 
-supp(H_&epsilon;(x,A)) = {x | H_&epsilon;(x,A) &neq; 0}
+supp(H_&epsilon;(x,A)) = {x | H_&epsilon;(x,A) &ne; 0}
 
 Define,
 
-A* = lim_{&epsilon; &harr; 0} supp(H_&epsilon;(x,A))
+A* = lim_{&epsilon; &rarr; 0} supp(H_&epsilon;(x,A))
 
 There are many discrete sets that obey the property,
 
