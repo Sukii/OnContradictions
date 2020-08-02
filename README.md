@@ -284,7 +284,9 @@ and so,
 
 &mu;(Q) = 1 
 
+i.e., that they should be identified with R rather than with the countable integers.
 
+The method of indetifying rational numbers of the form p/q with two-dimensional grid (p,q) breaks the topological neighbourhood relationships, so in a sense it deconstructs in different context missing it's essense of that neighborhood relationship.
 
 
 
