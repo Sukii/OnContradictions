@@ -9,15 +9,14 @@ only arise due to elements in physical reality that challenge idealism. Contradi
 
 “Reason has always existed, but not always in a reasonable form” – Karl Marx
 
+# Introduction
 
 Contradictions are mills through which reality ebbs and flows. The right and left hand side exists as opposing manifestations. The fact that the
 perfect symmetry of the left and right is broken is what establishes their distinction. If Earth is a perfect sphere, then there would not be rivers
 and valleys that brings life to it. However, since the radius of the earth is almost a constant (to more than an accuracy of 99%), we are qualified to call it a sphere.
 
 Contradictions are also a great source of changes to society and transitions from one form to another. Goliath was powerful when combat was direct physical conflict with hand-held weapons. When the giant Goliath calls David to come near him to fight him it is clear that only at that range that he can overcome David. David at the same time keeps his distance to deny him that opportunity and defeats him with his long-distance weapon. Inside the atomic nucleus such a conflict between the Goliath nuclear forces that operate only short distances release enormous amount of energy when it comes in conflict with the electrical repulsion
-that operates at long distances as the size of the nucleus becomes sufficiently large, as in the case of Uranium or Plutonium nucleus. At the
-other end of the spectrum when the gravitational forces crushes electrical repulsion in Hydrogen ions, the Goliath nuclear forces take over releasing
-enormous energy producing the energy of the sun. 
+that operates at long distances as the size of the nucleus becomes sufficiently large, as in the case of Uranium or Plutonium nucleus, when it is bombarded with neutrons causes nuclear fission releasing enormous amount of energy in short time. At the other end of the spectrum when the gravitational forces crushes electrical repulsion in Hydrogen ions, the Goliath nuclear forces take over releasing enormous energy producing the energy of the sun. 
 
 In this article we first consider classical Zeno’s paradox, countable infinity and uncountable infinities of higher order. We also show how
 these Hegelian contradictions lead to an hierarchy of infinities. We then show that the so called uncountable numbers can in fact be counted as
@@ -50,8 +49,7 @@ A = {dog, cat, horse, car, bus, train, aeroplane}
 
 #(A) = 7
 
-Now consider the set of all subsets of A, symbolically written as the set,
-2^A and in fact this notation for the power-set is justified by the relation,
+Now consider the set of all subsets of A, symbolically written as the set, 2^A and in fact this notation for the power-set is justified by the relation,
 
 #(2^A) = 2^#(A)
 
@@ -83,7 +81,7 @@ By a diagonalization process discovered by Cantor we can construct a real number
 
 b = 0.100 · · ·
 
-where b is obtained by reversing the 0s and 1s of i-th digit of a i , such that,
+where b is obtained by reversing the 0s and 1s of i-th digit of ai , such that,
 
 b = 0.b11 b22 b33 b44 b55 ... ∉ {a1,a2,a3,...}
 
@@ -97,12 +95,12 @@ In order prove this consider the binary representation of real number in (0,1),
 
 x = {0.010011001 ···}
 
-We now obtain the corresponding subset of natural numbers by considering all the index positions of “1” in the above binary representation, i.e.,
+We now obtain the corresponding subset of natural numbers by considering all the index positions of "1" in the above binary representation, i.e.,
 
 S = {2, 5, 6, 9, ...}
 
 Similarly for every subset of natural numbers we can construct a real number in (0,1). This implies a bijective mapping between the power-set
-of natural numbers and the set (0,1). Thus proving the result. QED
+of natural numbers and the set (0,1), thus proving the result. QED
 
 So finally we also have the result that we can construct an infinite hierarchies of infinities, i.e.,
 
@@ -125,19 +123,19 @@ By using Cantor’s arguments of diagonalization we get that the number,
 x = 0.11111111111111
 
 is not in this counting sequence. However, contrary to this argument, we know Achilles will eventually catch-up, i.e., when the depth of the tree
-(which is now 3) reaches 14 (= 2 + 4 + 8), then the last entry in the right-bottom will be the number 0.11111111111111. What about the number 0.11111. . . , i.e., the number 1.0. Will it ever be reached in counting as it is an infinite sequence? The question posed is similar to the Zeno’s paradox, as we assume that counting takes equal amount of time. What if we count them very fast in parallel. Assuming that we count the items of the i-th generation within a speed of r i seconds, where 0 < r < 1. The total time taken to count all of them will be,
+(which is now 3) reaches 14 (= 2 + 4 + 8), then the last entry in the right-bottom will be the number 0.11111111111111. What about the number 0.11111... , i.e., the number 1.0. Will it ever be reached in counting as it is an infinite sequence? The question posed is similar to the Zeno’s paradox, as we assume that counting takes equal amount of time. What if we count them very fast in parallel. Assuming that we count the items of the i-th generation within a speed of r^i seconds, where 0 < r < 1. The total time taken to count all of them will be,
 
 Total time taken = \sum_{i=1}^{∞} r_i = r/(1−r)
 
 which is a finite value. Here the crucial point is whether i = ∞ is included here or not. If the point at infinity is included in the set of natural numbers
 then the value 0.111111... = 1.0 will also be reached in counting. Since the total time taken for the computer to finish computation is finite, we
-can assume that the point at infinity will be included as we cross that time. This is exactly how Zeno’s paradox is resolved. This proves that
+can assume that the point at infinity will be included as we cross that time. This is exactly how Zeno’s paradox was resolved. This proves that
 this tree like structure will approach all the real numbers as it penetrates its roots across the entire set of real numbers in (0,1). Almost the same
-idea applies also for the set of rational numbers of the form p/q, as they can be represented in a two-dimensional grid points (p, q) and it can be
-counted in a zig-zag manner, starting at the top-left corner, similar to the tree structure here, but there the spatial distribution grows more like n 2 ,
+idea applies also for the set of rational numbers of the form p/q, as they can be represented in a two-dimensional grid points (p,q) and it can be
+counted in a zig-zag manner, starting at the top-left corner, similar to the tree structure here, but there the spatial distribution grows more like n^2 ,
 so it will take much more steps to converge to the real numbers than the tree algorithm which grows spatially as 2^n.
 
-One might argue that the point at infinity is just one point and how come this creates a one-to-one mapping from the set of natural numbers to the continuum. The point at infinity is a single converging point in time, but in the space of counting zero-dimensional points it maps to 2 א 0 , the continuum (that’s another reason why we counted them as a binary tree expansions, more as an expansion of sequence of finite power sets). So as a consequence we get the important result,
+One might argue that the point at infinity is just one point and how come this creates a one-to-one mapping from the set of natural numbers to the continuum. The point at infinity is a single converging point in time, but in the space of counting zero-dimensional points it maps to 2^{&aleph;0} , the continuum (that’s another reason why we counted them as a binary tree expansions, more as an expansion of sequence of finite power sets). So as a consequence we get the important result,
 
 
 
