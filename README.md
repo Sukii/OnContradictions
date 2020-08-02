@@ -286,8 +286,9 @@ and so,
 
 i.e., that they should be identified with R rather than with the countable integers.
 
-The method of indetifying rational numbers of the form p/q with two-dimensional grid (p,q) breaks the topological neighbourhood relationships, so in a sense it deconstructs in different context missing it's essense of that neighborhood relationship.
+The method of indentifying rational numbers of the form p/q with two-dimensional grid (p,q) breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrpresenting it out of context.
 
+One of the essence of uncountability is the fact that one cannot find the next number in the ordered list and this fact is satisfied by both teh set fo rational numbers, Q and the set of real numbers, R.
 
 
 
