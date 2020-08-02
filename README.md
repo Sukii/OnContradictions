@@ -234,7 +234,7 @@ set of real numbers and their effective scaling dimension is one and not zero.
 
 ### Discrete versus continuum
 
-The ideal way of mediating between the discrete and the contunuum is by the use of dirac distributions and or the Heavside function.
+The ideal way of mediating between the discrete and the continuum is by the use of Dirac distributions or the Heavside function.
 
 Let us now consider Heavside function H(x,A) corresponding to a set of discrete points in space A, i.e.,
 
