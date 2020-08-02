@@ -188,7 +188,7 @@ world. In the real physical world, we always have r > 1, so we will not be able 
 proof incompleteness of Gödel remain correct, only if we add this crucial element from reality. Contradictions don’t exist in an ideal world, they only arise due to elements in physical reality that challenge our idealism.
 
 
-###Cantor set and the continuum hypothesis
+### Cantor set and the continuum hypothesis
 
 The continuum hypothesis states that there are no cardinal numbers between א and 2 א. We have shown in the earlier section that the argument of diagonalization is similar to the Zeno’s paradox and we know in practice that the Achilles will overtake the tortoise, i.e., that the continuum can be counted. This implies that all the hierarchy of Hegelian infinities collapse to one, so the continuum hypothesis can be reformulated in this new context as:
 
