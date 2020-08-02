@@ -178,32 +178,31 @@ disjoint categories and then only a contradiction can be established.
 Although it is recursion that is establishing contradiction between the finite and infinite, it is also recursion that is capable of producing the
 infinite by finite means. It is the disease that some times provides the cure, like in the case of inoculation that injects the disease causing agent itself with reduced virulence in order to fight the disease.
 
-### Crucial assumption about reality that restore validity of Cantor’s proof and Gödel’s proof
+### Crucial assumption about reality that can restore validity of Cantor’s proof and Gödel’s proof
 
 Additional elements from physical reality are required, in order to restore validity of Cantor’s proof on uncountability of the continuum [0,1] and
 also Gödel’s proof of incompleteness. In a previous section we established that the continuum can be counted, where the crucial step was that the
 i-th generation of binary fractions of length 2^i can be counted in a time of r^i , where 0 < r < 1. This value of r is not possible in a real physical
-world. In the real physical world, we always have r > 1, so we will not be able to count the continuum in finite time and so Cantor’s proof and the
-proof incompleteness of Gödel remain correct, only if we add this crucial element from reality. Contradictions don’t exist in an ideal world, they only arise due to elements in physical reality that challenge our idealism.
+world. In the real physical world, we always have r > 1 (even when we consider Quantum computing), so we will not be able to count the continuum in finite time and so Cantor’s proof and the proof of incompleteness of Gödel remain correct, only if we add this crucial element from reality. Contradictions don’t exist in an ideal world, they only arise due to elements in physical reality that challenge our idealism.
 
 
 ### Cantor set and the continuum hypothesis
 
-The continuum hypothesis states that there are no cardinal numbers between א and 2 א. We have shown in the earlier section that the argument of diagonalization is similar to the Zeno’s paradox and we know in practice that the Achilles will overtake the tortoise, i.e., that the continuum can be counted. This implies that all the hierarchy of Hegelian infinities collapse to one, so the continuum hypothesis can be reformulated in this new context as:
+The continuum hypothesis states that there are no cardinal numbers between &aleph; and 2^{&aleph;}. We have shown in the earlier section that the argument of diagonalization is similar to the Zeno’s paradox and we know in practice that the Achilles will overtake the tortoise, i.e., that the continuum can be counted. This implies that all the hierarchy of Hegelian infinities collapse to one, so the continuum hypothesis can be reformulated in this new context as:
 
-Is there a set B with infinite points and a new measure, μ, such that, μ(N) < μ(B) < μ(C) where N is the set of natural numbers, C is set of
-real numbers in the [0, 1]. We will now be constructing such a measure and the set as well. Let us now consider the Cantor set, C , which can be obtained by recursively removing the middle one-third (but keeping the end points during the removal) of the set real numbers in [0,1]. Consider the sequence of sets,
+Is there a set B with infinite points and a new measure of dimension, μ, such that, μ(N) < μ(B) < μ(C) where N is the set of natural numbers, C is set of
+real numbers in the [0, 1]. We will now be constructing such a measure and the set B as well. Let us now consider the Cantor set, B , which can be obtained by recursively removing the middle one-third (but keeping the end points during the removal) of the set real numbers in [0,1]. Consider the sequence of sets,
 
-C_1 = [0,1/3] ∪ [2/3,1], C_2 = [0,1/9] ∪ [2/9,1/3] ∪ [2/3,7/9] ∪ [8/9,1],..., 
+B_1 = [0,1/3] ∪ [2/3,1], B_2 = [0,1/9] ∪ [2/9,1/3] ∪ [2/3,7/9] ∪ [8/9,1],..., 
 
 defining the Cantor set to be,
 
-C = &cap;_{k=1}^{∞} C_k
+B = &cap;_{k=1}^{∞} C_k
 
-n the above representation it seems as if the Cantor set can be represented as the disjoint union of countable sets. However, this is quite untrue, as
+In the above representation it seems as if the Cantor set can be represented as the disjoint union of countable sets. However, this is quite untrue, as
 the Cantor set is a totally disconnected nowhere dense set. So, it can only be written as the disjoint union of uncountable sets. This fallacy is
 due to the fact that countability of the finite-dimensional truncation of an uncountable set does not prove that the limiting set is countable, not that
-distinguishing between countable sets and uncountable sets is as easy as it was portrayed to be by classical mathematicians.
+distinguishing between countable sets and uncountable sets is as easy as it was portrayed by classical mathematicians.
 Cantor set can also be symbolically written as a geometric set following the relation,
 
 3 × C(0) = C(0) ∪ C(2/3)
@@ -229,6 +228,62 @@ This may seem erroneous as 0.1 ∈ C , but it should be noted that in the ternar
 One then wonders how this is a counter example to the continuum hypothesis? The answer lies not in counting bananas but weighing bananas, as there is more geometric information in the Cantor set that is lost in counting rather than weighing them. It is this extra geometric information that is captured by the scaling dimension, which distinguishes it as a fractal object existing between 0-dimension and 1-dimension.
 
 It also becomes apparent that the idea of countability is rather useless, as although the set of rational numbers are countable, they are dense in the
-set of real numbers and their effective scaling dimension is one and not zero. This quantitative aspect becomes clear as we deal with algorithms
-that generates Cantor set and their complexity in the next section.
+set of real numbers and their effective scaling dimension is one and not zero. 
+
+### Discrete versus continuum
+
+The ideal way of mediating between the discrete and the contunuum is by the use of dirac distributions and or the Heavside function.
+
+Let us now consider Heavside function H(x,A) corresponding to a set of discrete points in space A, i.e.,
+
+H(x,A) =  1 if x &in; A
+
+H(x,A) =  0 if x &notin; A
+
+Let us now define,
+
+H_&epsilon;(x,A) = H(x,A) &ast; exp(-|x|^2/&epsilon;^2)
+
+Now consider the support of the function,
+
+supp(H_&epsilon;(x,A)) = {x | H_&epsilon;(x,A) &neq; 0}
+
+Define,
+
+A* = lim_{&epsilon; &harr; 0} supp(H_&epsilon;(x,A))
+
+There are many discrete sets that obey the property,
+
+A* = A
+
+for them there is hope. However, for sets that do not satisfy this property we will only consider it's regular equivalent A* rather than A.
+
+In the case of the set of rational numbers we get,
+
+Q* = R
+
+But for Cantor set B, we have,
+
+B* = B
+
+It is possible to measure such sets with confidence.
+
+Of course, there are sets like the Vitali set,
+
+V = R/Q
+
+which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible define them as subsets of [q1,q2] for nay two distinct rationals q1, q2 that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be.
+
+Of course, we invented all this mechanism to convince the audience that,
+
+Q* = R
+
+and so,
+
+&mu;(Q) = 1 
+
+
+
+
+
 
