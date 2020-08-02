@@ -95,11 +95,11 @@ c = 2^א
 
 In order prove this consider the binary representation of real number in (0,1),
 
-x = {0.010011001 · · ·}
+x = {0.010011001 ···}
 
 We now obtain the corresponding subset of natural numbers by considering all the index positions of “1” in the above binary representation, i.e.,
 
-S = {2, 5, 6, 9, . . .}
+S = {2, 5, 6, 9, ...}
 
 Similarly for every subset of natural numbers we can construct a real number in (0,1). This implies a bijective mapping between the power-set
 of natural numbers and the set (0,1). Thus proving the result. QED
@@ -209,7 +209,7 @@ due to the fact that countability of the finite-dimensional truncation of an unc
 distinguishing between countable sets and uncountable sets is as easy as it was portrayed to be by classical mathematicians.
 Cantor set can also be symbolically written as a geometric set following the relation,
 
-3 × C (0) = C (0) ∪ C (2/3)
+3 × C(0) = C(0) ∪ C(2/3)
 
 Or to put in simply, when we scale the Cantor set by 3, we get two Cantor sets, i.e.,
 
