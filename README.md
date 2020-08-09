@@ -128,7 +128,7 @@ x = 0.11111111111111
 is not in this counting sequence. However, contrary to this argument, we know Achilles will eventually catch-up, i.e., when the depth of the tree
 (which is now 3) reaches 14 (= 2 + 4 + 8), then the last entry in the right-bottom will be the number 0.11111111111111. What about the number 0.11111... , i.e., the number 1.0. Will it ever be reached in counting as it is an infinite sequence? The question posed is similar to the Zeno’s paradox, as we assume that counting takes equal amount of time. What if we count them very fast in parallel. Assuming that we count the items of the i-th generation within a speed of r^i seconds, where 0 < r < 1. The total time taken to count all of them will be,
 
-Total time taken = \sum_{i=1}^{∞} r_i = r/(1−r)
+Total time taken = \sum_{i=1}^{∞} r^i = r/(1−r)
 
 which is a finite value. Here the crucial point is whether i = ∞ is included here or not. If the point at infinity is included in the set of natural numbers
 then the value 0.111111... = 1.0 will also be reached in counting. Since the total time taken for the computer to finish computation is finite, we
