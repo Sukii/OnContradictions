@@ -270,11 +270,11 @@ B* = B
 
 It is possible to measure such sets with confidence.
 
-Of course, there are sets like the Vitali set,
+Of course, there are pathological sets like the Vitali set,
 
 V = R/Q
 
-which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible define them as subsets of [q1,q2] for nay two distinct rationals q1, q2 that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be.
+which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible define them as subsets of [q1,q2] for a y two distinct rationals q1, q2 that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be. The ockam razor for avoiding such sets is that these sets are well ordered sets and they do not have associated metric that can uniquely define a metric distance between two points in the set. 
 
 Of course, we invented all this mechanism to convince the audience that,
 
