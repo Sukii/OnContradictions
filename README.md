@@ -153,7 +153,7 @@ hypothesis. Abstract ideas do perform an useful function of unifying various dis
 In summary, we found that the idea of countability breaks down, so it cannot be used to classify levels of infinities and all the Hegelian in-
 finities collapse to a single infinity in the Platonic world. However, the concept of continuum hypothesis still remains true in this new context
 where we will no more be counting bananas but instead weighing them. In the next section (Section 3) we will construct a counter example to
-continuum hypothesis using a new way of distinguishing infinities with Hausdorf measures or the concept of scaling dimensions.
+continuum hypothesis using a new way of distinguishing infinities with Hausdorff measures or the concept of scaling dimensions.
 
 
 ## Decision problems
