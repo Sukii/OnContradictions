@@ -167,7 +167,11 @@ The continuum hypothesis states that there are no cardinal numbers between $\ale
 
 Is there a set $B$ with infinite points and a new measure of dimension, $μ$, such that, $μ(N) < μ(B) < μ(C)$ where $N$ is the set of natural numbers, $C$ is set of real numbers in the [0, 1]. We will now be constructing such a measure and the set $B$ as well. Let us now consider the Cantor set, $B$ , which can be obtained by recursively removing the middle one-third (but keeping the end points during the removal) of the set real numbers in [0,1]. Consider the sequence of sets,
 
-$$B_1 = [0,1/3] ∪ [2/3,1], B_2 = [0,1/9] ∪ [2/9,1/3] ∪ [2/3,7/9] ∪ [8/9,1], ..., $$
+$$B_1 = [0,1/3] ∪ [2/3,1],$$
+
+$$B_2 = [0,1/9] ∪ [2/9,1/3] ∪ [2/3,7/9] ∪ [8/9,1],$$
+
+$$...$$
 
 defining the Cantor set to be,
 
