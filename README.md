@@ -274,7 +274,7 @@ Of course, there are pathological sets like the Vitali set,
 
 $$V = R/Q$$
 
-which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible to define them as subsets of [q1,q2] for any two distinct rationals q1, q2 that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be. The ockam razor for avoiding such sets is that these sets are not well-ordered sets and they do not have an associated metric that can uniquely define a metric distance between two points in the set. 
+which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible to define them as subsets of $[q_1,q_2]$ for any two distinct rationals $q_1, q_2$ that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be. The ockam razor for avoiding such sets is that these sets are not well-ordered sets and they do not have an associated metric that can uniquely define a metric distance between two points in the set. 
 
 Of course, we invented all this mechanism to convince the audience that,
 
@@ -286,9 +286,9 @@ $$&mu;(Q) = 1$$
 
 i.e., that they should be identified with R rather than with the countable integers.
 
-The method of indentifying rational numbers of the form p/q with two-dimensional grid (p,q) breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrpresenting it.
+The method of indentifying rational numbers of the form $p/q$ with two-dimensional grid $(p,q)$ breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrpresenting it.
 
-One of the essence of uncountability is the fact that one cannot find the next number in the ordered list and this fact is satisfied by both the set of rational numbers, Q and the set of real numbers, R.
+One of the essence of uncountability is the fact that one cannot find the next number in the ordered list and this fact is satisfied by both the set of rational numbers, $Q$ and the set of real numbers, $R$.
 
 
 
