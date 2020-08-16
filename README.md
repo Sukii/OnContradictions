@@ -138,7 +138,7 @@ $$\aleph_0 = 2^{\aleph_0} = 2^{2^{\aleph_0}} = ...$$
 
 At a philosophical level, we can say that in the ideal Platonic world, there is only one infinity (one truth and one god).
 Paul Cohen [Chow, 2007] proved using the concept of forcing that a consistent set of axioms of set theory cannot prove or disprove continuum
-hypothesis. Abstract ideas do perform an useful function of unifying various disparate concrete objects but as observed by Arnold [1998], they mostly do not yield any thing concrete by themselves.
+hypothesis. Abstract ideas do perform an useful function of unifying various disparate concrete objects but as observed by [Arnold (1998)](https://www.uni-muenster.de/Physik.TP/~munsteg/arnold.html) , they mostly do not yield any thing concrete by themselves.
 
 In summary, we found that the idea of countability breaks down, so it cannot be used to classify levels of infinities and all the Hegelian infinities collapse to a single infinity in the Platonic world. However, the concept of continuum hypothesis still remains true in this new context where we will no more be counting bananas but instead weighing them. In the next section (Section 3) we will construct a counter example to continuum hypothesis using a new way of distinguishing infinities with Hausdorff measures or the concept of scaling dimensions.
 
