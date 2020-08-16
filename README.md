@@ -279,7 +279,13 @@ $$
 
 then it truncates to a polynomial but the limit is an exponential.
 
+
 In order to establish that it remains a polynomial in $N$ we have to find an upper-bound on the degree of the polynomial $N$, so that it remains polynomial in the limiting process also. We will now consider sub-classes of problems that have these limiting properties.
+
+Although this problem seems quite different from the problem of prime decomposition problem, it can transformed into a problem of prime deposition by mappiing of each number of the set into it's corresponding power of say 2, e.g., $n_i \to 2^{n_i}$ and treat the problem as factorization problem rather than a problem of sums. Of course, this is special subclass of the product decomposition problem. 
+
+
+
 
 
 
