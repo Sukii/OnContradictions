@@ -9,7 +9,7 @@ only arise due to elements in physical reality that challenge idealism. Contradi
 
 “Reason has always existed, but not always in a reasonable form” – Karl Marx
 
-# Introduction
+## Introduction
 
 Contradictions are mills through which reality ebbs and flows. The right and left hand side exists as opposing manifestations. The fact that the
 perfect symmetry of the left and right is broken is what establishes their distinction. If Earth is a perfect sphere, then there would not be rivers
@@ -26,7 +26,7 @@ well, using a close parallel with Zeno’s paradox, resulting in a serious fissu
 
 We will begin with the classical Zeno’s paradox that is usually explained in terms of Achilles and the tortoise [Aristotle, 350 BCE].
 
-### Zeno’s paradox
+## Zeno’s paradox
 
 Classical Zeno’s paradox is illustrated by the story of the Achilles and the Tortoise. The paradox follows from the argument that if the tortoise
 takes a lead, then each time Achilles reaches the place the tortoise was, the tortoise would have moved further away, and however fast the Achilles
@@ -103,7 +103,7 @@ So finally we also have the result that we can construct an infinite hierarchies
 
 $$\aleph, 2^{\aleph}, 2^{2^{\aleph}}, ...$$
 
-### Paradox of countability and fissures in continuum hypothesis
+## Paradox of countability and fissures in continuum hypothesis
 
 Now, we will establish a new result, that contrary to classical mathematics, it is possible to count the real numbers in (0,1) in a orderly sequence. This establishes a contradiction between countability and uncountability. First, let us consider the binary representation of real numbers (0,1) using a tree-like representation (Figure 1).
 
@@ -161,7 +161,7 @@ Although it is recursion that is establishing contradiction between the finite a
 Additional elements from physical reality are required, in order to restore validity of Cantor’s proof on uncountability of the continuum [0,1] and also Gödel’s proof of incompleteness. In a previous section we established that the continuum can be counted, where the crucial step was that the $i$-th generation of binary fractions of length $2^i$ can be counted in a time of $r^i$ , where $0 < r < 1$. This value of $r$ is not possible in a real physical world. In the real physical world, we always have $r > 1$ (even when we consider Quantum computing), so we will not be able to count the continuum in finite time and so Cantor’s proof and the proof of incompleteness of Gödel remain correct, only if we add this crucial element from reality. Contradictions don’t exist in an ideal world, they only arise due to elements in physical reality that challenge our idealism.
 
 
-### Cantor set and the continuum hypothesis
+## Cantor set and the continuum hypothesis
 
 The continuum hypothesis states that there are no cardinal numbers between $\aleph$ and $2^{\aleph}$. We have shown in the earlier section that the argument of diagonalization is similar to the Zeno’s paradox and we know in practice that the Achilles will overtake the tortoise, i.e., that the continuum can be counted. This implies that all the hierarchy of Hegelian infinities collapse to one, so the continuum hypothesis can be reformulated in this new context as:
 
@@ -260,6 +260,32 @@ i.e., that they should be identified with $R$ rather than with the countable int
 The method of indentifying rational numbers of the form $p/q$ with two-dimensional grid $(p,q)$ breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrpresenting it.
 
 One of the essence of uncountability is the fact that one cannot find the next number in the ordered list and this fact is satisfied by both the set of rational numbers, $Q$ and the set of real numbers, $R$.
+
+## NP vs P - the exact problem as a limiting case of approximate problem
+
+In reality, mathematical idealizations are scale limits of real problems. Just as we cannot have a measuring scale of infinite length, these limiting problems are unrealistic abstractions, but they are useful to capture essence of some problems as a simplified cartoon sketch.
+
+In our earlier sections we saw how the continuum hypothesis and set theory could be understood. In the same vein, let us consider a simple NP-complete problem, the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem). The subset sum problem is the problem of indentifying a set of $N$ numbers in a given set that add-up to a given number $M$. It is easy to verify that they add-up to $M$, but difficult to find such numbers, especially that there is no solution whose effort estimate is polynomial in $N$ and so expected to be exponenetial in $N$. These problems are realted to the packing problem of finding if a given set of objects fit a bag, a problem that every travellor has enough experience to know that it is complex. In fact, every time we pack a bag we find that some thing is sticking out frustrating us so much that we sometimes off-load the bag and restart the packing again!
+
+Now let us consider the approximate version of this problem and see how it is solved. We will give a rough sketch here, but for more details please refer to the [source](https://en.wikipedia.org/wiki/Subset_sum_problem#Polynomial_time_approximate_algorithm).
+
+...
+
+In the above approximate problem the introduction of an $\epsilon > 0$ managed to convert it into a problem of polynomial complexity, so the problem of NP-complexity class under the limit $\epsilon \to 0$ establishes the result NP=P. Howvever, we also expect that for the exact problem, $\text{NP}\ne \text{P}$ and that in fact that it can only be solved in an effort that grows as exponential of $N$ and not polynomial in $N$. This can also be established from another angle that if we look at the Talor series expansion of the exponetial function of $N$,i.e.,
+
+$$
+\exp(N) = 1 + N + \frac{N^2}{2!} + \frac{N^3}{3!} + \cdots 
+$$
+
+then it truncates to a polynomial but the limit is an exponential.
+
+In order to establish that it remains a polynomial in $N$ we have to find an upper-bound on the degree of the polynomial $N$, so that it remains polynomial in the limiting process also. We will now consider sub-classes of problems that have these limiting properties.
+
+
+
+
+
+
 
 
 
