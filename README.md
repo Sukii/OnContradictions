@@ -265,11 +265,19 @@ One of the essence of uncountability is the fact that one cannot find the next n
 
 In reality, mathematical idealizations are scale limits of real problems. Just as we cannot have a measuring scale of infinite length, these limiting problems are unrealistic abstractions, but they are useful to capture essence of some problems as a simplified cartoon sketch.
 
-In our earlier sections we saw how the continuum hypothesis and set theory could be understood. In the same vein, let us consider a simple NP-complete problem, the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem). The subset sum problem is the problem of indentifying a set of $N$ numbers in a given set that add-up to a given number $M$. It is easy to verify that they add-up to $M$, but difficult to find such numbers, especially that there is no solution whose effort estimate is polynomial in $N$ and so expected to be exponential in $N$. These problems are related to the packing problem of finding if a given set of objects fit a bag, a problem that every travellor has enough experience to know that it is complex. In fact, every time we pack a bag we find that some thing is sticking out frustrating us so much that we sometimes off-load the bag and restart the packing again!
+In our earlier sections we saw how the continuum hypothesis and set theory could be understood. In the same vein, let us consider a simple NP-complete problem, the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem). The subset sum problem is the problem of indentifying a set of $N$ numbers in a given set that add-up to a given number $M$. If we arrange the numbers like a stack of $N$ building blocks of different heights in ascending order of height next to the block of height $M$, the problem is to locate among the $N$ blocks the blocks that build-up to the height $M$.  It is easy to verify that they add-up to $M$, but difficult to find such numbers, especially that there is no solution whose effort estimate is polynomial in $N$ and so expected to be exponential in $N$. These problems are related to the packing problem of finding if a given set of objects fit a bag, a problem that every travellor has enough experience to know that it is complex. In fact, every time we pack a bag we find that some thing is sticking out frustrating us so much that we sometimes off-load the bag and restart the packing again!
 
 Now let us consider the approximate version of this problem and see how it is solved. We will give a rough sketch here, but for more details please refer to the [source](https://en.wikipedia.org/wiki/Subset_sum_problem#Polynomial_time_approximate_algorithm).
 
-...
+We can pose this problem as:
+
+Find numbers $f_i$ satisfying
+
+$$0 \le {f_i} < \epsilon \text{ or } 1-\epsilon < {f_i} \le 1$$
+
+such that
+
+$$ \left| \sum_{i=1}^{N}f_i a_i - M \right| \text{ is minimum}$$
 
 In the above approximate problem the introduction of an $\epsilon > 0$ managed to convert it into a problem of polynomial complexity, so the problem of NP-complexity class under the limit $\epsilon \to 0$ establishes the result NP=P. Howvever, we also expect that for the exact problem, $\text{NP}\ne \text{P}$ and that in fact that it can only be solved in an effort that grows as exponential of $N$ and not polynomial in $N$. This can also be established from another angle that if we look at the Talor series expansion of the exponetial function of $N$,i.e.,
 
@@ -279,10 +287,15 @@ $$
 
 then it truncates to a polynomial but the limit is an exponential.
 
+In order to establish that it remains a polynomial in $N$ we have to find an upper-bound on the degree of the polynomial $N$, so that it remains polynomial in the limiting process also.
 
-In order to establish that it remains a polynomial in $N$ we have to find an upper-bound on the degree of the polynomial $N$, so that it remains polynomial in the limiting process also. We will now consider sub-classes of problems that have these limiting properties.
+*Subset sum problem* is the simplest of the NP-class problems. Although this *Subset sum problem* seems quite different from the problem of prime decomposition problem, it can be transformed into a problem of product decomposition by mapping each number of the set into it's corresponding power of say 2, e.g., $n_i \to 2^{n_i}$ and treat the problem as factorization problem rather than a problem of sums. Of course, this is special subclass of the product decomposition problem where all numbers are powers of 2. So we have a new corollary of the above facts:
 
-Although this problem seems quite different from the problem of prime decomposition problem, it can be transformed into a problem of prime decomposition by mapping each number of the set into it's corresponding power of say 2, e.g., $n_i \to 2^{n_i}$ and treat the problem as factorization problem rather than a problem of sums. Of course, this is special subclass of the product decomposition problem. 
+$$ \text{Subset sum problem} \subset \text{Subset product problem} $$
+
+i.e., the *Subset sum problem* can be considered as special case of the *Subset product problem* where the *sum* is replaced by *multiplication*. 
+
+Of course, it is easy to verify whether the product of $N$ numbers is $M$, but it is difficult to factorize numbers. It has only been recently shown that with effort that is polynomial in $M$ we can check whether it is a prime number. The quantum Shor algorithm was able to factorize numbers in polynomial in time, but the effort is still equivalent to exponential effort in $N$ in terms of a classical computation. As the computation happens in the case of quantum computers using states that make computation with distributed space of values in parallel, it is able to deliver it faster in time.
 
 
 
