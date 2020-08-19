@@ -318,7 +318,7 @@ $$C = \{i | (m-i)\text{th-position of the binary representaion of } M \text{ is 
 
 The solution of the problem then reduces to checking if 
 
-$$ B \subset C $$
+$$ C \subset B $$
 
 which only requires an effort of the order of $m= \log(M)$. Of course to sort and create such an array of $N$ numbers will require $N\log(N)$. But it is clear that all of this only requires an effort of polynomial complexity.
 
