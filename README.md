@@ -289,6 +289,39 @@ then it truncates to a polynomial but the limit is an exponential.
 
 In order to establish that it remains a polynomial in $N$ we have to find an upper-bound on the degree of the polynomial $N$, so that it remains polynomial in the limiting process also.
 
+We will now consider the simplest version of this problem:
+
+Consider the binary representation of $M$, i.e.,
+
+$$M = \underbrace{100110011\ldots}_{m \text{ bits}} = \sum_{i=1}^{m} f_i 2^{i}$$
+
+where $f_i = 0\text{ or } 1$, for .
+
+Now consider the set,  for $i = 1,2,\ldots,m$
+
+$$A = \cup_{i=1}^{N}\left\{ a_i \right\},$$
+
+where $a_i$ are a set of positive integers for $i = 1,2,\ldots,N$.
+
+Instead of this set, let us consider a special case of this set,
+
+$$A = \cup_{i=1}^{N}\left\{ 2^{\alpha_i} \right\},$$
+
+where $\alpha_i$ are a set of positive integers for $i=1,2,\ldots,N$ and let,
+
+
+$$B = \cup_{i=1}^{N}\left\{ \alpha_i \right\},$$
+
+Let us now create a subset of natural numbers that has "1" in the $m-i$th-position of the binary representaion of $M$,
+
+$$C = \{i | (m-i)\text{th-position of the binary representaion of } M \text{ is 1}\}$$
+
+The solution of the problem then reduces to checking if 
+
+$$ B \subset C $$
+
+which only requires an effort of the order of $m= \log(M)$. Of course to sort and create such an array of $N$ numbers will require $N\log(N)$. But it is clear that all of this only requires an effort of polynomial complexity.
+
 *Subset sum problem* is the simplest of the NP-class problems. Although this *Subset sum problem* seems quite different from the problem of prime decomposition problem, it can be transformed into a problem of product decomposition by mapping each number of the set into it's corresponding power of say 2, e.g., $n_i \to 2^{n_i}$ and treat the problem as factorization problem rather than a problem of sums. Of course, this is special subclass of the product decomposition problem where all numbers are powers of 2. So we have a new corollary of the above facts:
 
 $$ \text{Subset sum problem} \subset \text{Subset product problem} $$
