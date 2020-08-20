@@ -30,7 +30,7 @@ We will begin with the classical Zeno’s paradox that is usually explained in t
 
 Classical Zeno’s paradox is illustrated by the story of the Achilles and the Tortoise. The paradox follows from the argument that if the tortoise
 takes a lead, then each time Achilles reaches the place the tortoise was, the tortoise would have moved further away, and however fast the Achilles
-chases the tortoise, it can never catch the tortoise, as each time the tortoise would have moved further away while Achilles is trying to catchup. We
+chases the tortoise, it can never catch the tortoise, as each time the tortoise would have moved further away while Achilles is trying to catch-up. We
 will illustrate this in a much simpler way using the concept of recursive decimals:
 
 $$ 0.99999 ··· = 1 $$
@@ -80,7 +80,7 @@ By a diagonalization process discovered by Cantor we can construct a real number
 
 $$b = 0.100···$$
 
-where $b$ is obtained by reversing the 0s and 1s of i-th digit of ai , such that,
+where $b$ is obtained by reversing the 0s and 1s of i-th digit of $a_i$ , such that,
 
 $$b = 0.b_{11} b_{22} b_{33} b_{44} b_{55} ... ∉ {a_1,a_2,a_3,...}$$
 
@@ -130,7 +130,7 @@ which is a finite value. Here the crucial point is whether $i = ∞$ is included
 
 One might argue that the point at infinity is just one point and how come this creates a one-to-one mapping from the set of natural numbers to the continuum. The point at infinity is a single converging point in time, but in the space of counting zero-dimensional points it maps to $2^{\aleph_0}$ , the continuum (that’s another reason why we counted them as a binary tree expansions, more as an expansion of sequence of finite power sets). So as a consequence we get the important result,
 
-
+$$\aleph_0 = 2^{\aleph_0}$$
 
 Similarly, if we consider multi-exponential trees, we obtain,
 
@@ -150,9 +150,9 @@ Although here we are only discussing about numbers and mathematics of set theory
 
 $$f : A → {0, 1}$$
 
-where $A ⊂ N$. So in essence a decision problem can be mapped to a real number. However, at the same time it can be shown that the set of algorithms or procedural programs are countable, as a Turing machine can be reduced to a natural number, a binary state of the computer. Putting these two facts together, we get the result that not all decision problems can be solved exactly by a computer as real numbers are uncountable. This how we also prove that the halting problem is unsolvable and also how Gödel proved his incompleteness theorem [Aaronsom, 2013]. Our results here question the exact validity of all those proofs without additional assumptions. It is quite clear that other assumptions about reality are required to make them valid.
+where $A ⊂ N$. So in essence a decision problem can be mapped to a real number. However, at the same time it can be shown that the set of algorithms or procedural programs are countable, as a Turing machine can be reduced to a natural number, a binary state of the computer. Putting these two facts together, we get the result that not all decision problems can be solved exactly by a computer as real numbers are uncountable. This how we also prove that the halting problem is unsolvable and also how Gödel proved his incompleteness theorem [Aaronson, 2013]. Our results here question the exact validity of all those proofs without additional assumptions. It is quite clear that other assumptions about reality are required to make them valid.
 
-In order to make this article self-contained we briefly indicate how the halting problem is related to the Zeno’s paradox, but for more details about the halting problem and it’s relation to the Gödel’s incompleteness theorem, please refer to lucid account by Aaronsom [2013]. The halting problem constructs the two legally disjoint categories, the finite and infinite, and finds a contradiction between them. Here we noticed in our earlier sections that, just as in Zeno’s paradox, the infinite of events is contained within a finite interval of time. In an ideal world it is possible to count an infinite of things in finite time and only by imposing some conditions that are borrowed from reality that we can establish such logically disjoint categories and then only a contradiction can be established.
+In order to make this article self-contained we briefly indicate how the halting problem is related to the Zeno’s paradox, but for more details about the halting problem and it’s relation to the Gödel’s incompleteness theorem, please refer to lucid account by Aaronson [2013]. The halting problem constructs the two legally disjoint categories, the finite and infinite, and finds a contradiction between them. Here we noticed in our earlier sections that, just as in Zeno’s paradox, the infinite of events is contained within a finite interval of time. In an ideal world it is possible to count an infinite of things in finite time and only by imposing some conditions that are borrowed from reality that we can establish such logically disjoint categories and then only a contradiction can be established.
 
 Although it is recursion that is establishing contradiction between the finite and infinite, it is also recursion that is capable of producing the infinite by finite means. It is the disease that some times provides the cure, like in the case of inoculation that injects the disease causing agent itself with reduced virulence in order to fight the disease.
 
@@ -205,9 +205,9 @@ It also becomes apparent that the idea of countability is rather useless, as alt
 
 ### Discrete versus continuum
 
-The ideal way of mediating between the discrete and the continuum is by the use of Dirac distributions or the Heavside function.
+The ideal way of mediating between the discrete and the continuum is by the use of Dirac distributions or the Heaviside function.
 
-Let us now consider Heavside function $H(x,A)$ corresponding to a set of discrete points in space $A$, i.e.,
+Let us now consider Heaviside function $H(x,A)$ corresponding to a set of discrete points in space $A$, i.e.,
 
 $$H(x,A) =  1 \text{ if }x \in A$$
 
@@ -245,7 +245,7 @@ Of course, there are pathological sets like the Vitali set,
 
 $$V = R/Q$$
 
-which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible to define them as subsets of $[q_1,q_2]$ for any two distinct rationals $q_1, q_2$ that will remain untractable even for Lebesque measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be. The ockam razor for avoiding such sets is that these sets are not well-ordered sets and they do not have an associated metric that can uniquely define a metric distance between two points in the set. 
+which are not even well-defined; in the sense that there are multiple avatars of this set possible and it is possible to define them as subsets of $[q_1,q_2]$ for any two distinct rationals $q_1, q_2$ that will remain intractable even for Lebesgue measure. We will keep ourselves far way from those kinds of pathologies, however interesting they may be. The Occam razor for avoiding such sets is that these sets are not well-ordered sets and they do not have an associated metric that can uniquely define a metric distance between two points in the set. 
 
 Of course, we invented all this mechanism to convince the audience that,
 
@@ -257,7 +257,7 @@ $$\mu(Q) = 1$$
 
 i.e., that they should be identified with $R$ rather than with the countable integers.
 
-The method of indentifying rational numbers of the form $p/q$ with two-dimensional grid $(p,q)$ breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrepresenting it.
+The method of identifying rational numbers of the form $p/q$ with two-dimensional grid $(p,q)$ breaks the topological neighbourhood relationships, so in a sense it deconstructs it in different context misrepresenting it.
 
 One of the essence of uncountability is the fact that one cannot find the next number in the ordered list and this fact is satisfied by both the set of rational numbers, $Q$ and the set of real numbers, $R$.
 
@@ -265,7 +265,7 @@ One of the essence of uncountability is the fact that one cannot find the next n
 
 In reality, mathematical idealizations are scale limits of real problems. Just as we cannot have a measuring scale of infinite length, these limiting problems are unrealistic abstractions, but they are useful to capture essence of some problems as a simplified cartoon sketch.
 
-In our earlier sections we saw how the continuum hypothesis and set theory could be understood. In the same vein, let us consider a simple NP-complete problem, the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem). The subset sum problem is the problem of indentifying a set of $N$ numbers in a given set that add-up to a given number $M$. If we arrange the numbers like a stack of $N$ building blocks of different heights in ascending order of height next to the block of height $M$, the problem is to locate among the $N$ blocks the blocks that build-up to the height $M$.  It is easy to verify that they add-up to $M$, but difficult to find such numbers, especially that there is no solution whose effort estimate is polynomial in $N$ and so expected to be exponential in $N$. These problems are related to the packing problem of finding if a given set of objects fit a bag, a problem that every travellor has enough experience to know that it is complex. In fact, every time we pack a bag we find that some thing is sticking out frustrating us so much that we sometimes off-load the bag and restart the packing again!
+In our earlier sections we saw how the continuum hypothesis and set theory could be understood. In the same vein, let us consider a simple NP-complete problem, the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem). The subset sum problem is the problem of identifying a set of $N$ numbers in a given set that add-up to a given number $M$. If we arrange the numbers like a stack of $N$ building blocks of different heights in ascending order of height next to the block of height $M$, the problem is to locate among the $N$ blocks the blocks that build-up to the height $M$.  It is easy to verify that they add-up to $M$, but difficult to find such numbers, especially that there is no solution whose effort estimate is polynomial in $N$ and so expected to be exponential in $N$. These problems are related to the packing problem of finding if a given set of objects fit a bag, a problem that every traveller has enough experience to know that it is complex. In fact, every time we pack a bag we find that some thing is sticking out frustrating us so much that we sometimes off-load the bag and restart the packing again!
 
 Now let us consider the approximate version of this problem and see how it is solved. We will give a rough sketch here, but for more details please refer to the [source](https://en.wikipedia.org/wiki/Subset_sum_problem#Polynomial_time_approximate_algorithm).
 
@@ -279,7 +279,7 @@ such that
 
 $$ \left| \sum_{i=1}^{N}f_i a_i - M \right| \text{ is minimum}$$
 
-In the above approximate problem the introduction of an $\epsilon > 0$ managed to convert it into a problem of polynomial complexity, so the problem of NP-complexity class under the limit $\epsilon \to 0$ establishes the result NP=P. Howvever, we also expect that for the exact problem, $\text{NP}\ne \text{P}$ and that in fact that it can only be solved in an effort that grows as exponential of $N$ and not polynomial in $N$. This can also be established from another angle that if we look at the Talor series expansion of the exponetial function of $N$,i.e.,
+In the above approximate problem the introduction of an $\epsilon > 0$ managed to convert it into a problem of polynomial complexity, so the problem of NP-complexity class under the limit $\epsilon \to 0$ establishes the result NP=P. However, we also expect that for the exact problem, $\text{NP}\ne \text{P}$ and that in fact that it can only be solved in an effort that grows as exponential of $N$ and not polynomial in $N$. This can also be established from another angle that if we look at the Taylor series expansion of the exponential function of $N$,i.e.,
 
 $$
 \exp(N) = 1 + N + \frac{N^2}{2!} + \frac{N^3}{3!} + \cdots 
@@ -311,9 +311,9 @@ where $\alpha_i$ are a set of positive integers for $i=1,2,\ldots,N$ and let,
 
 $$B = \cup_{i=1}^{N}\left\{ \alpha_i \right\},$$
 
-Let us now create a subset of natural numbers that has "1" in the $m-i$th-position of the binary representaion of $M$,
+Let us now create a subset of natural numbers that has "1" in the $m-i$th-position of the binary representation of $M$,
 
-$$C = \{i | (m-i)\text{th-position of the binary representaion of } M \text{ is 1}\}$$
+$$C = \{i | (m-i)\text{th-position of the binary representation of } M \text{ is 1}\}$$
 
 The solution of the problem then reduces to checking if 
 
@@ -321,7 +321,7 @@ $$ C \subset B $$
 
 which only requires an effort of the order of $m= \log(M)$. Of course to sort and create such an array of $N$ numbers will require $N\log(N)$. But it is clear that all of this only requires an effort of polynomial complexity.
 
-You might wonder how can a given set of arbitrary numbers arrange themselves in exact powers of 2, an event of very low probability (probabality is as low as $\log(N)/N$). However, once we consider the fact that an amount of coarse graining is allowed within the set that can produce a new set by merging (adding) some elements within it to pruduce a new set, i.e., $A^{\ast} = \text{coarse-graining}(A)$, then we can see that the scope widens a bit. We will study this coarse graining process in further detail here.
+You might wonder how can a given set of arbitrary numbers arrange themselves in exact powers of 2, an event of very low probability (probability is as low as $\log(N)/N$). However, once we consider the fact that an amount of coarse graining is allowed within the set that can produce a new set by merging (adding) some elements within it to produce a new set, i.e., $A^{\ast} = \text{coarse-graining}(A)$, then we can see that the scope widens a bit. We will study this coarse graining process in further detail here.
 
 Consider the set,
 
