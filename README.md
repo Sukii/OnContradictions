@@ -321,7 +321,19 @@ $$ C \subset B $$
 
 which only requires an effort of the order of $m= \log(M)$. Of course to sort and create such an array of $N$ numbers will require $N\log(N)$. But it is clear that all of this only requires an effort of polynomial complexity.
 
-You might wonder how can a given set of arbitrary numbers arrange themselves in exact powers of 2, an event of very low probability (probabality is as low as $\log(N)/N$). However, once we consider the fact that an amount of coarse graining is allowed within the set that can produce a new set by merging (adding) some elements within it to pruduce a new set, i.e., $A^{\ast} = \text{telescope}(A)$, then we can see that the scope widens a bit. We will study this coarse graining process in further detail here.
+You might wonder how can a given set of arbitrary numbers arrange themselves in exact powers of 2, an event of very low probability (probabality is as low as $\log(N)/N$). However, once we consider the fact that an amount of coarse graining is allowed within the set that can produce a new set by merging (adding) some elements within it to pruduce a new set, i.e., $A^{\ast} = \text{coarse-graining}(A)$, then we can see that the scope widens a bit. We will study this coarse graining process in further detail here.
+
+Consider the set,
+
+$$A = \{1,4,7,8,9,14,21\},\; M= 32$$
+
+We can now coarse-grain this as,
+
+$$A^{\ast} = \{1,4,8,8(+1),16(-2),16(+5)\}\sim \text{bin}(101111),\; M=32 = \text{bin}(000001)$$
+
+$$16(-2)+16(+5) \neq 32, \text{ but } 1+8+8(+1)+16(-2)=32$$
+
+Thus we are able to quickly zoom into the solution through a tree-like sweep. Of course, we need estimate the complexity of these steeps in detail, as there could be strange distribution patterns that challenge our approach.
 
 *Subset sum problem* is the simplest of the NP-class problems. Although this *Subset sum problem* seems quite different from the problem of prime decomposition problem, it can be transformed into a problem of product decomposition by mapping each number of the set into it's corresponding power of say 2, e.g., $n_i \to 2^{n_i}$ and treat the problem as factorization problem rather than a problem of sums. Of course, this is special subclass of the product decomposition problem where all numbers are powers of 2. So we have a new corollary of the above facts:
 
