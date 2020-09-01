@@ -160,6 +160,8 @@ Although it is recursion that is establishing contradiction between the finite a
 
 Additional elements from physical reality are required, in order to restore validity of Cantor’s proof on uncountability of the continuum [0,1] and also Gödel’s proof of incompleteness. In a previous section we established that the continuum can be counted, where the crucial step was that the $i$-th generation of binary fractions of length $2^i$ can be counted in a time of $r^i$ , where $0 < r < 1$. This value of $r$ is not possible in a real physical world. In the real physical world, we always have $r > 1$ (even when we consider Quantum computing), so we will not be able to count the continuum in finite time and so Cantor’s proof and the proof of incompleteness of Gödel remain correct, only if we add this crucial element from reality. Contradictions don’t exist in an ideal world, they only arise due to elements in physical reality that challenge our idealism.
 
+Of course, there are other simpler ways to distinguish discrete from continuum, i.e., by the fact that in the case of continuum, between any two distinct point in the set there is always another point distinct from the two that lies in between these two distinct points. We shall consider these techniques in the next section.
+
 
 ## Cantor set and the continuum hypothesis
 
